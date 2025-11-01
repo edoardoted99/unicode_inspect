@@ -2,6 +2,13 @@
 
 Inspect Unicode characters and display tables with code points, names (character concepts), glyphs, and encodings (UTF‑8/16/32) in hexadecimal and bits.
 
+# Pip installation
+
+```bash
+pip install unicode-inspect
+```
+
+
 ## Local installation
 
 ```bash
