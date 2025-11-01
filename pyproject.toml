@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling>=1.25.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unicode-inspect"
+version = "0.1.0"
+description = "Inspect Unicode characters and display tables with code points, names, glyphs, and encodings (UTF-8/16/32) in hexadecimal and bits"
+readme = "README.md"
+authors = [{ name = "Your Name" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+  "tabulate>=0.9.0",
+]
+keywords = ["unicode", "utf-8", "encoding", "cli", "table"]
+
+[project.urls]
+Homepage = "https://github.com/your-user/unicode-inspect"
+
+[project.scripts]
+unicode-inspect = "unicode_inspect.cli:main"
